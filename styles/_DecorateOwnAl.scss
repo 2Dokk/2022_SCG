@@ -1,0 +1,16 @@
+$upline: rgb(233, 103, 95);
+$downline: rgb(242, 194, 61);
+#line {
+  margin-top: 1.5vw;
+  width: 100%;
+  height: 8vw;
+  background: linear-gradient($upline 50%, white 50%, $downline 60%);
+  margin-bottom: 1em;
+}
+.nav-tabs .nav-link {
+  border-radius: 15px 15px 0 0;
+  background-color: $upline;
+}
+.nav-link {
+  color: white;
+}
