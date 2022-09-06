@@ -23,28 +23,36 @@ $Cafe: #ffb9b9;
   border-bottom-left-radius: 8vw;
   border-top-left-radius: 8vw;
   text-align: center;
-  line-height: 12vw;
+  line-height: 11vw;
+  font-size: 2.7vw;
+  width: 8.5vw;
 }
 #tab\:R4m\:1 {
   background-color: $Chinese;
   border-bottom-left-radius: 8vw;
   border-top-left-radius: 8vw;
   text-align: center;
-  line-height: 12vw;
+  line-height: 11vw;
+  font-size: 2.7vw;
+  width: 8.5vw;
 }
 #tab\:R4m\:2 {
   background-color: $Japanese;
   border-bottom-left-radius: 8vw;
   border-top-left-radius: 8vw;
   text-align: center;
-  line-height: 12vw;
+  line-height: 11vw;
+  font-size: 2.7vw;
+  width: 8.5vw;
 }
 #tab\:R4m\:3 {
   background-color: $Western;
   border-bottom-left-radius: 8vw;
   border-top-left-radius: 8vw;
   text-align: center;
-  line-height: 12vw;
+  line-height: 11vw;
+  font-size: 2.7vw;
+  width: 8.5vw;
 }
 #tab\:R4m\:4 {
   background-color: $Cafe;
@@ -52,6 +60,8 @@ $Cafe: #ffb9b9;
   border-top-left-radius: 8vw;
   text-align: center;
   line-height: 4vw;
+  font-size: 2.7vw;
+  width: 8.5vw;
 }
 .react-tabs {
   display: flex;
@@ -99,7 +109,7 @@ $Cafe: #ffb9b9;
 }
 
 .react-tabs__tab--selected {
-  padding-left: 21px;
+  padding-left: 0.5vw;
 }
 
 .panel-content {

@@ -36,29 +36,19 @@ const JJuppList: NextPage = () => {
         </TabList>
 
         <TabPanel>
-          <div className="panel-content">
-            <h2>Any content 1</h2>
-          </div>
+          <div className="panel-content"></div>
         </TabPanel>
         <TabPanel>
-          <div className="panel-content">
-            <h2>Any content 2</h2>
-          </div>
+          <div className="panel-content"></div>
         </TabPanel>
         <TabPanel>
-          <div className="panel-content">
-            <h2>Any content 3</h2>
-          </div>
+          <div className="panel-content"></div>
         </TabPanel>
         <TabPanel>
-          <div className="panel-content">
-            <h2>Any content 4</h2>
-          </div>
+          <div className="panel-content"></div>
         </TabPanel>
         <TabPanel>
-          <div className="panel-content">
-            <h2>Any content 5</h2>
-          </div>
+          <div className="panel-content"></div>
         </TabPanel>
       </Tabs>
     </div>
