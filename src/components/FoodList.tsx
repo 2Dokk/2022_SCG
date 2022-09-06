@@ -1,9 +1,11 @@
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import Image from "next/image";
+import { useRouter } from "next/router";
 //Images
 import Typography from "../images/jjuppDeco.png";
 
 const FoodList: React.FC = () => {
+  const router = useRouter();
   return (
     <div>
       <Tabs>
@@ -51,6 +53,14 @@ const FoodList: React.FC = () => {
               placeholder="blur"
               layout="responsive"
             />
+          </div>
+          <div>알로스의 한식 맛도리 List!</div>
+          <div
+            onClick={() => {
+              router.push("/Korean/example");
+            }}
+          >
+            ???
           </div>
         </TabPanel>
         <TabPanel>
