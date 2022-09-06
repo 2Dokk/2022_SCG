@@ -1,11 +1,14 @@
 import React from "react";
 import Image from "next/image";
+import { useRouter } from "next/router";
 //Icon
 import LogoIcon from "./images/jjuppLogo.png";
 import DecoIcon from "./images/jjuppDeco.png";
 import interviewIcon from "./images/jjuppInterview.png";
 import ListIcon from "./images/jjuppList.png";
+
 const Header: React.FC = () => {
+  const router = useRouter();
   return (
     <div>
       <header>
@@ -69,6 +72,9 @@ const Header: React.FC = () => {
           }}
         >
           <Image
+            onClick={() => {
+              router.push("/List");
+            }}
             src={ListIcon}
             alt="jjuppList"
             placeholder="blur"
