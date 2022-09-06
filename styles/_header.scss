@@ -1,5 +1,17 @@
 //header color
 $header-color: rgb(233, 103, 95);
+#firstIcon {
+  margin-left: 10%;
+  border-radius: 20px 20px 20px 20px;
+}
+#secondIcon {
+  margin-left: 5%;
+  border-radius: 20px 20px 20px 20px;
+}
+#thirdIcon {
+  margin-left: 5%;
+  border-radius: 20px 20px 20px 20px;
+}
 #header-upline {
   padding-bottom: 1%;
   border-bottom-width: 6vw;
@@ -20,4 +32,5 @@ header {
 
 .Icon {
   background-color: $header-color;
+  margin-top: 3vw;
 }

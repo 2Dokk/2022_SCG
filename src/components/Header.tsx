@@ -25,12 +25,13 @@ const Header: React.FC = () => {
           />
         </div>
         <div
+          id="firstIcon"
           className="Icon"
           style={{
             float: "left",
             width: "15%",
             position: "relative",
-            maxWidth: "15%",
+            maxWidth: "10%",
           }}
         >
           <Image
@@ -41,12 +42,13 @@ const Header: React.FC = () => {
           />
         </div>
         <div
+          id="secondIcon"
           className="Icon"
           style={{
             float: "left",
             width: "15%",
             position: "relative",
-            maxWidth: "15%",
+            maxWidth: "10%",
           }}
         >
           <Image
@@ -57,12 +59,13 @@ const Header: React.FC = () => {
           />
         </div>
         <div
+          id="thirdIcon"
           className="Icon"
           style={{
             float: "left",
             width: "15%",
             position: "relative",
-            maxWidth: "15%",
+            maxWidth: "10%",
           }}
         >
           <Image
