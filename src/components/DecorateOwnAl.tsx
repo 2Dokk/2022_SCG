@@ -1,6 +1,6 @@
-import React from "react";
 import Tab from "react-bootstrap/Tab";
 import Tabs from "react-bootstrap/Tabs";
+import React from "react";
 
 const MyOwnAl: React.FC = () => {
   return (

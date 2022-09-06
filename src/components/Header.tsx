@@ -18,9 +18,13 @@ const Header: React.FC = () => {
             width: "15%",
             position: "relative",
             maxWidth: "15%",
+            cursor: "pointer",
           }}
         >
           <Image
+            onClick={() => {
+              router.push("/");
+            }}
             src={LogoIcon}
             alt="jjuppLogo"
             placeholder="blur"
@@ -35,6 +39,7 @@ const Header: React.FC = () => {
             width: "15%",
             position: "relative",
             maxWidth: "10%",
+            cursor: "pointer",
           }}
         >
           <Image
@@ -52,6 +57,7 @@ const Header: React.FC = () => {
             width: "15%",
             position: "relative",
             maxWidth: "10%",
+            cursor: "pointer",
           }}
         >
           <Image
@@ -69,6 +75,7 @@ const Header: React.FC = () => {
             width: "15%",
             position: "relative",
             maxWidth: "10%",
+            cursor: "pointer",
           }}
         >
           <Image
