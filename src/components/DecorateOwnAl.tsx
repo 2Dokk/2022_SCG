@@ -12,10 +12,30 @@ const MyOwnAl: React.FC = () => {
         className="mb-3"
         transition={false}
       >
-        <Tab className="tabNames" eventKey="myAl" title="My 알로스"></Tab>
-        <Tab className="tabNames" eventKey="closet" title="My 옷장"></Tab>
-        <Tab className="tabNames" eventKey="bbom" title="뽐내기"></Tab>
-        <Tab className="tabNames" eventKey="cardMap" title="CardMap"></Tab>
+        <Tab
+          id="myAl"
+          className="tabNames"
+          eventKey="myAl"
+          title="My 알로스"
+        ></Tab>
+        <Tab
+          id="myAl"
+          className="tabNames"
+          eventKey="closet"
+          title="My 옷장"
+        ></Tab>
+        <Tab
+          id="myAl"
+          className="tabNames"
+          eventKey="bbom"
+          title="뽐내기"
+        ></Tab>
+        <Tab
+          id="myAl"
+          className="tabNames"
+          eventKey="cardMap"
+          title="CardMap"
+        ></Tab>
       </Tabs>
     </div>
   );
