@@ -11,6 +11,7 @@ const MyOwnAl: React.FC = () => {
         id="uncontrolled-tab-example"
         className="mb-3"
         transition={false}
+        fill
       >
         <Tab
           id="myAl"

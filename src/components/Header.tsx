@@ -11,7 +11,6 @@ const Header: React.FC = () => {
             src={logoImage}
             alt="jjuppLogo"
             placeholder="blur"
-            sizes="(max-width: 20%) 30px"
             layout="responsive"
           />
         </div>

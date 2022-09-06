@@ -1,5 +1,6 @@
 $upline: rgb(233, 103, 95);
 $downline: rgb(242, 194, 61);
+$innertab: rgb(255, 193, 189);
 #line {
   margin-top: 1.5vw;
   width: 100%;
@@ -10,4 +11,17 @@ $downline: rgb(242, 194, 61);
 .nav-tabs .nav-link {
   border-radius: 15px 15px 0 0;
   background-color: $upline;
+}
+#uncontrolled-tab-example-tab-myAl,
+#uncontrolled-tab-example-tab-closet,
+#uncontrolled-tab-example-tab-bbom,
+#uncontrolled-tab-example-tab-cardMap {
+  border-radius: 15px 15px 0 0;
+  background-color: $innertab;
+  color: $upline;
+
+  &[aria-selected="true"] {
+    color: white;
+    background-color: $upline;
+  }
 }
