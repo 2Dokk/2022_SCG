@@ -35,7 +35,16 @@ const FoodList: React.FC = () => {
         </TabList>
 
         <TabPanel>
-          <div className="panel-content">
+          <div
+            className="panel-content"
+            style={{
+              width: "80%",
+              position: "relative",
+              marginTop: "5vw",
+              marginLeft: "8vw",
+              backgroundColor: "black",
+            }}
+          >
             <Image
               src={Typography}
               alt="Typo"
