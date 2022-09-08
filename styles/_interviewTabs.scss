@@ -1,0 +1,27 @@
+$About: #ffda00;
+$Interview: #e75480;
+$Memo: #6ca0dc;
+
+#left-tabs-example-tab-first {
+  background-color: $About;
+  color: black;
+  border-radius: 24px 0 0 24px;
+}
+#left-tabs-example-tab-second {
+  background-color: $Interview;
+  color: black;
+  border-radius: 24px 0 0 24px;
+}
+
+#left-tabs-example-tab-third {
+  background-color: $Memo;
+  color: black;
+  border-radius: 24px 0 0 24px;
+}
+
+.nav-item {
+  margin-top: 10vw;
+  width: 20vw;
+  height: 40vw;
+  margin-left: 5vw;
+}

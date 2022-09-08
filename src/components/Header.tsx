@@ -43,6 +43,9 @@ const Header: React.FC = () => {
           }}
         >
           <Image
+            onClick={() => {
+              router.push("/Interview");
+            }}
             src={interviewIcon}
             alt="jjuppInterview"
             placeholder="blur"
