@@ -1,21 +1,28 @@
-import { useState, Dispatch, SetStateAction } from "react";
+import Nav from "react-bootstrap/Nav";
+import Tab from "react-bootstrap/Tab";
 
-//components
-import ListNav from "./ListNav";
-
-export interface listNav {
-  item: { menu: string; setMenu: Dispatch<SetStateAction<string>> };
-}
 const FoodList: React.FC = () => {
-  const [navKey, setKey] = useState("KOR");
-  const listItem = {
-    menu: navKey,
-    setMenu: setKey,
-  };
   return (
     <div>
-      <ListNav item={listItem} />
-      <div className="listBody"></div>
+      <div id="foodList">
+        <Nav variant="pills" defaultActiveKey="1" fill>
+          <Nav.Link eventKey="1">한식</Nav.Link>
+
+          <Nav.Link eventKey="2">중식</Nav.Link>
+
+          <Nav.Link eventKey="3">일식</Nav.Link>
+
+          <Nav.Link eventKey="4">양식</Nav.Link>
+
+          <Nav.Link eventKey="5">디저트</Nav.Link>
+        </Nav>
+      </div>
+
+      <Tab.Content id="foodContent">
+        <Tab.Pane eventKey="1">
+          asdfsfaasdfsadfadsfsadfsadfasdgsadgasdgwasv awege
+        </Tab.Pane>
+      </Tab.Content>
     </div>
   );
 };
