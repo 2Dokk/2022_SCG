@@ -10,6 +10,7 @@ $Memo: #6ca0dc;
   font-size: 2.5vw;
 }
 #left-tabs-example-tab-second {
+  margin-top: 2vw;
   background-color: $Interview;
   color: black;
   border-radius: 24px 0 0 24px;
@@ -21,19 +22,23 @@ $Memo: #6ca0dc;
   color: black;
   border-radius: 24px 0 0 24px;
   font-size: 2.5vw;
+  margin-top: 2vw;
 }
 #left-tabs-example-tabpane-first {
   display: subgrid;
   clear: both;
 }
-
-.nav-item {
-  width: 10vw;
-  height: 30vw;
+#interviewBox {
+  width: 80%;
+}
+.col-sm-3 {
   margin-left: 3vw;
-  padding: 0;
+  padding-right: 0 !important;
 }
 .row {
-  display: grid !important;
-  grid-template-columns: 1fr 7fr;
+  display: grid;
+}
+
+.col {
+  padding: 0 !important;
 }
