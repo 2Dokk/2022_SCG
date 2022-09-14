@@ -4,7 +4,6 @@ const nextConfig = {
   swcMinify: true,
 };
 const path = require("path");
-
 module.exports = {
   nextConfig,
   sassOptions: {

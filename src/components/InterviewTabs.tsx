@@ -37,9 +37,9 @@ const InterviewT: React.FC = () => {
           </Col>
           <Col sm={9}>
             <Tab.Content>
-              <Tab.Pane eventKey="first"></Tab.Pane>
-              <Tab.Pane eventKey="second"></Tab.Pane>
-              <Tab.Pane eventKey="third"></Tab.Pane>
+              <Tab.Pane eventKey="first">First</Tab.Pane>
+              <Tab.Pane eventKey="second">Second</Tab.Pane>
+              <Tab.Pane eventKey="third">Third</Tab.Pane>
             </Tab.Content>
           </Col>
         </Row>
