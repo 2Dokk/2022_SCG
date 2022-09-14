@@ -4,8 +4,8 @@ import Tab from "react-bootstrap/Tab";
 const FoodList: React.FC = () => {
   return (
     <div>
-      <div id="foodList">
-        <Nav variant="pills" defaultActiveKey="1" fill>
+      <Tab.Container id="left-tabs-example" defaultActiveKey="1">
+        <Nav id="foodList" variant="pills" defaultActiveKey="1" fill>
           <Nav.Link eventKey="1">한식</Nav.Link>
 
           <Nav.Link eventKey="2">중식</Nav.Link>
@@ -16,13 +16,15 @@ const FoodList: React.FC = () => {
 
           <Nav.Link eventKey="5">디저트</Nav.Link>
         </Nav>
-      </div>
 
-      <Tab.Content id="foodContent">
-        <Tab.Pane eventKey="1">
-          asdfsfaasdfsadfadsfsadfsadfasdgsadgasdgwasv awege
-        </Tab.Pane>
-      </Tab.Content>
+        <Tab.Content id="foodContent">
+          <Tab.Pane eventKey="1">한식</Tab.Pane>
+          <Tab.Pane eventKey="2">중식</Tab.Pane>
+          <Tab.Pane eventKey="3">일식</Tab.Pane>
+          <Tab.Pane eventKey="4">양식</Tab.Pane>
+          <Tab.Pane eventKey="5">디저트</Tab.Pane>
+        </Tab.Content>
+      </Tab.Container>
     </div>
   );
 };
