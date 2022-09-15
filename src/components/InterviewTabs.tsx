@@ -9,8 +9,8 @@ const InterviewT: React.FC = () => {
       <div id="interviewBox">
         <Tab.Container id="left-tabs-example" defaultActiveKey="first">
           <Row>
-            <Col>
-              <Nav variant="pills" className="flex-column">
+            <Col sm={2}>
+              <Nav className="flex-column">
                 <Nav.Link eventKey="first">
                   <div>A</div>
                   <div>B</div>
@@ -30,7 +30,7 @@ const InterviewT: React.FC = () => {
                 </Nav.Link>
               </Nav>
             </Col>
-            <Col>
+            <Col id="tabContent" sm={10}>
               <Tab.Content>
                 <Tab.Pane eventKey="first">First</Tab.Pane>
                 <Tab.Pane eventKey="second">Second</Tab.Pane>

@@ -8,6 +8,7 @@ $Memo: #6ca0dc;
   color: black;
   border-radius: 24px 0 0 24px;
   font-size: 2.5vw;
+  margin-left: 5vw;
 }
 #left-tabs-example-tab-second {
   margin-top: 2vw;
@@ -15,6 +16,7 @@ $Memo: #6ca0dc;
   color: black;
   border-radius: 24px 0 0 24px;
   font-size: 2.5vw;
+  margin-left: 5vw;
 }
 
 #left-tabs-example-tab-third {
@@ -23,13 +25,36 @@ $Memo: #6ca0dc;
   border-radius: 24px 0 0 24px;
   font-size: 2.5vw;
   margin-top: 2vw;
+  margin-left: 5vw;
+}
+// #left-tabs-example-tabpane-first {
+//   display: subgrid;
+//   clear: both;
+// }
+#interviewBox {
+  width: 90%;
+}
+#tabContent {
+  margin-top: 5vw;
+  padding-left: 0 !important;
 }
 #left-tabs-example-tabpane-first {
-  display: subgrid;
-  clear: both;
+  height: 90vw;
+  border-left-color: $About;
+  border-left-style: solid;
+  border-left-width: 2vw;
 }
-#interviewBox {
-  width: 80%;
+#left-tabs-example-tabpane-second {
+  height: 90vw;
+  border-left-color: $Interview;
+  border-left-style: solid;
+  border-left-width: 2vw;
+}
+#left-tabs-example-tabpane-third {
+  height: 90vw;
+  border-left-color: $Memo;
+  border-left-style: solid;
+  border-left-width: 2vw;
 }
 .col-sm-3 {
   margin-left: 3vw;
@@ -38,7 +63,6 @@ $Memo: #6ca0dc;
 .row {
   display: grid;
 }
-
 .col {
-  padding: 0 !important;
+  padding: 0;
 }

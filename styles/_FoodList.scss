@@ -20,7 +20,7 @@ $innertab: rgb(255, 193, 189);
   border-style: solid;
   border-width: 1vw;
 }
-.nav-link.active {
+.nav-pills .nav-link.active {
   background-color: $header-color !important;
 }
 
