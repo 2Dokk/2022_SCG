@@ -1,8 +1,7 @@
 import "../styles/app.scss";
 import type { AppProps } from "next/app";
-import { SSRProvider } from "@react-aria/ssr";
 import "bootstrap/dist/css/bootstrap.min.css";
-import axios from "axios";
+import { SSRProvider } from "@react-aria/ssr";
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
@@ -11,5 +10,4 @@ function MyApp({ Component, pageProps }: AppProps) {
     </SSRProvider>
   );
 }
-
 export default MyApp;

@@ -4,7 +4,8 @@ import Header from "../src/components/Header";
 import VideoCarousel from "../src/components/VideoCarousel";
 import MyOwnAl from "../src/components/DecorateOwnAl";
 
-const App: NextPage = () => {
+const App: NextPage = (props) => {
+  console.log(props);
   return (
     <div className="App">
       <Header />
@@ -13,5 +14,4 @@ const App: NextPage = () => {
     </div>
   );
 };
-
 export default App;
