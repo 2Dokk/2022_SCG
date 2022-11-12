@@ -3,15 +3,15 @@ import Image from "next/image";
 import Link from "next/link";
 import { useRouter } from "next/router";
 //Icon
-import LogoIcon from "../images/jjuppLogo.png";
-import DecoIcon from "../images/jjuppDeco.png";
-import interviewIcon from "../images/jjuppInterview.png";
-import ListIcon from "../images/jjuppList.png";
+import LogoIcon from "../../public/jjuppLogo.png";
+import DecoIcon from "../../public/jjuppDeco.png";
+import interviewIcon from "../../public/jjuppInterview.png";
+import ListIcon from "../../public/jjuppList.png";
 
 const Header: React.FC = () => {
   return (
     <div>
-      <header>
+      <div className="header">
         <Link href={"/"}>
           <div
             style={{
@@ -30,7 +30,7 @@ const Header: React.FC = () => {
             />
           </div>
         </Link>
-        <Link href={"/Interview"}>
+        <Link href={"/"}>
           <div
             id="firstIcon"
             className="Icon"
@@ -88,7 +88,7 @@ const Header: React.FC = () => {
             />
           </div>
         </Link>
-      </header>
+      </div>
       <div style={{ clear: "both" }} id="header-upline"></div>
       <div style={{ clear: "both" }} id="header-line"></div>
     </div>

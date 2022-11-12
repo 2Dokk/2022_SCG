@@ -6,13 +6,16 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
+    "deploy": "next build && next export && touch out/.nojekyll && git add out/ && git commit -m 'deploy to gh-pages' && git subtree push --prefix out origin gh-pages",
     "lint": "next lint"
   },
   "dependencies": {
     "@react-aria/ssr": "^3.3.0",
+    "@react-google-maps/api": "^2.16.1",
     "axios": "^1.1.2",
     "bootstrap": "^5.2.0",
     "next": "^12.2.5",
+    "next-optimized-images": "^2.6.2",
     "react": "^18.2.0",
     "react-bootstrap": "^2.5.0",
     "react-dom": "^18.2.0",

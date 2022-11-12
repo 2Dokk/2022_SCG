@@ -7,15 +7,15 @@ const VideoCarousel = () => {
   const videoProperties = [
     {
       id: 1,
-      embedId: "_GNQDgsa5GE",
+      embedId: "a8E90NLbJlw",
     },
     {
       id: 2,
-      embedId: "_GNQDgsa5GE",
+      embedId: "_HbEZZuEaaU",
     },
     {
       id: 3,
-      embedId: "_GNQDgsa5GE",
+      embedId: "a8E90NLbJlw",
     },
   ];
 

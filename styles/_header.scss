@@ -14,20 +14,16 @@ $header-color: rgb(233, 103, 95);
 }
 #header-upline {
   padding-bottom: 1%;
-  border-bottom-width: 7.5vh;
+  border-bottom-width: 7.5vw;
   border-color: $header-color;
   border-bottom-style: solid;
   display: block;
 }
 #header-line {
-  padding: 0.3vh;
-  border-bottom-width: 3vh;
+  padding: 0.3vw;
+  border-bottom-width: 3vw;
   border-color: $header-color;
   border-bottom-style: solid;
-}
-
-header {
-  display: block;
 }
 
 .Icon {

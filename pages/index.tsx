@@ -5,9 +5,8 @@ import VideoCarousel from "../src/components/VideoCarousel";
 import MyOwnAl from "../src/components/DecorateOwnAl";
 
 const App: NextPage = (props) => {
-  console.log(props);
   return (
-    <div className="App">
+    <div className="App" style={{ maxWidth: "900px", margin: "auto" }}>
       <Header />
       <VideoCarousel />
       <MyOwnAl />
